@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Stream - Servicio Médico</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+</head>
+<body>    
+    <header class="contenedor-header">
+        <!-- Barra superior -->
+        <div class="barra-superior">
+            <div class="contacto">
+                <span>serviciomedicoprimario@gmail.com</span>
+                <span>982525646</span>
+            </div>
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Menú principal -->
+        <nav class="menu-principal">
+            <div class="logo">Red Stream</div>
+            <div class="enlaces">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca De</a>
+                <a href="#">Blog</a>
+                <a href="#">Contactos</a>
+                <a href="#" class="destacado">LOGIN / REGISTRO</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="texto-hero">
+                <h2>BIENVENIDO A SERVICIO MÉDICO PRIMARIO</h2>
+                <h1>Conectando a los donantes...</h1>
+                <p>Nuestra misión es cerrar la brecha entre los donantes de sangre y los receptores,
+                brindando una experiencia fluida y eficiente para ambas partes.
+                Puedes confiar en nosotros, ofrecemos el mejor servicio...</p>
+                
+                <div class="busqueda-email">
+                    <input type="email" placeholder="Tu correo electrónico...">
+                    <button>OBTENER RESPUESTA DE VUELTA</button>
+                </div>
+            </div>
+            <img src="img/doctor.PNG" alt="Imagen de un doctor sonriendo" class="imagen-doctor">
+        </div>
+    </header>
+
+    <!-- Página 2 - Encontrar Donante -->
+    <section class="seccion-donante">
+        <div class="contenedor">
+            <h2>ENCUENTRA AL MEJOR DONANTE PARA TI</h2>
+            <div class="formulario-donante">
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nombre:" name="nombre">
+                    <input type="tel" placeholder="Teléfono:" name="telefono">
+                    <input type="email" placeholder="Correo:" name="correo">
+                    <select name="tipo-sangre">
+                        <option>Tipo de Sangre: A+</option>
+                        <option>O+</option>
+                        <option>B+</option>
+                        <option>AB+</option>
+                        <option>A-</option>
+                        <option>O-</option>
+                        <option>B-</option>
+                        <option>AB-</option>
+                    </select>
+                    <input type="text" placeholder="Ciudad:" name="ciudad">
+                    <input type="text" placeholder="Región:" name="region">
+                    <button type="submit">ENCONTRAR DONANTE</button>
+                </form>
+            </div>
+
+            <div class="linea-tiempo">
+                <h3>Línea de Tiempo de Donaciones</h3>
+                <div class="evento">
+                    <p>15 de junio, 2025<br>Campaña en Hospital General - CDMX<br>9:00 AM - 2:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página 3 - Actividades -->
+    <section class="tabla-actividades">
+        <div class="contenedor">
+            <h2>Actividades de Donación de Sangre - UNA Puno</h2>
+            <div class="filtros">
+                <span>Mostrar</span>
+                <select>
+                    <option>10</option>
+                </select>
+                <span>entradas</span>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Evento</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Ubicación</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Campaña en Hospital General</td>
+                        <td>15 de junio, 2025</td>
+                        <td>9:00 AM - 2:00 PM</td>
+                        <td>Hospital General CDMX</td>
+                        <td><button onclick="alert('Próximamente más información')">Ver</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Página 4 - Sobre Nosotros -->
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="columna">
+                <h3>SOBRE NOSOTROS</h3>
+                <p>Nos preocupamos por tus seres queridos</p>
+                <button>LEER MÁS SOBRE NOSOTROS</button>
+            </div>
+
+            <div class="columna">
+                <h3>Contacto</h3>
+                <p>seguro social una puno<br>
+                +982525646<br>
+                Servicio medico@gmail.com</p>
+            </div>
+
+            <div class="columna">
+                <h3>Otros Enlaces</h3>
+                <ul>
+                    <li>INICIO</li>
+                    <li>Find donor</li>
+                    <li>ACERCA DE NOSOTROS</li>
+                    <!-- Más enlaces -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
